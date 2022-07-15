@@ -1,587 +1,632 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
-    <link rel="stylesheet" href="../style.css" type="text/css">
+    <link rel="stylesheet" href="/css/iframe.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9202929133026434" crossorigin="anonymous"></script>
+    <style>
+        rt {
+            color: #999;
+        }
+    </style>
     <title>农作物</title>
 </head>
+
 <body>
-<h1><ruby>农作物<rt>農作物</rt></ruby></p>
-<h3>作物培育的基本方法</h3>
-<p>耕地、播种、施肥、浇水、收获、加工种子、再次播种<br>
-※ 牧草、果树、茶叶不需要浇水<br>
-※ 水田作物定期浇水即可</p>
-<br>
-<h3>土地和水</h3>
-<ul>
-    <li><ruby><b>松软的土地</b><rt>ふかふか畑</rt></ruby></li>
-    能够缩短作物的生长时间<br>不能在地下室使用
-    <li><ruby><b>浇水</b><rt>水やり</rt></ruby></li>
-    每天浇水后，作物的成长+1.0<br>10小时后可以再次浇水，作物的成长+0.5
-</ul>
-<h3>品质与肥料</h3>
-<p>作物的品质被分为四类</p>
-<ul>
-    <li><ruby>色泽<rt>色ツヤ</rt></ruby></li>
-    <li><ruby>甜度・香气<rt>甘味・かおり</rt></ruby></li>
-    <li><ruby>水分<rt>水分量</rt></ruby></li>
-    <li><ruby>尺寸<rt>サイズ</rt></ruby></li>
-</ul>
-<table>
-<tr>
-    <th rowspan="2">分类</th>
-    <th colspan="4">品质项目</th>
-</tr>
-<tr>
-    <td>色ツヤ</td>
-    <td>甘味・かおり</td>
-    <td>水分量</td>
-    <td>サイズ</td>
-</tr>
-<tr>
-    <th>農作物・果樹</th>
-    <td>◯</td>
-    <td>◯</td>
-    <td>◯</td>
-    <td>◯</td>
-</tr>
-<tr>
-    <th>花・穀物・茶葉</th>
-    <td>◯</td>
-    <td>◯</td>
-    <td>◯</td>
-    <td>—</td>
-</tr>
-<tr>
-    <th>水田作物</th>
-    <td>◯</td>
-    <td>◯</td>
-    <td>◯</td>
-    <td>—</td>
-</tr>
-<tr>
-    <th>繊維作物</th>
-    <td>◯</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-
-</tr>
-<tr>
-    <th>樹</th>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-
-</tr>
-<tr>
-    <th>蘑菇 (キノコ)</th>
-    <td>◯</td>
-    <td>◯</td>
-    <td>—</td>
-    <td>—</td>
-</tr>
-</table>
-<br>
-<h3>可以使用肥料提升这四类品质</h3>
-<p>用百分比表示，但是在内部也许存在真正的数值<br>
-黄金作物不受肥料影响，只有一个<br>
-水分只要每天浇水都会增加，不必一直使用肥料</p>
-<ul>
-    <li><b>商店获得(作物祭获得一次优胜后出现)</b></li>
+    <h1><ruby>农作物<rt>農作物</rt></ruby></h1>
+    <h2>作物培育的基本方法</h2>
+    <p>耕地、播种、施肥、浇水、收获、加工种子、再次播种<br>
+        ※ 牧草、果树、茶叶不需要浇水<br>
+        ※ 水田作物定期浇水即可</p>
+    <h3>土地和水</h3>
     <ul>
-        <li>ぴかりんひりょう：色泽+3.34%</li>
-        <li>あまあまひりょう：甜味+3.34%</li>
-        <li>ジューシーひりょう：水分+3.34%</li>
-        <li>ぐんぐんひりょう：尺寸+3.34%</li>
-        <li>ふえーるひりょう：收获量+1(尺寸稍微减少)</li>
+        <li><ruby><b>松软的土地</b>
+                <rt>ふかふか畑</rt>
+            </ruby></li>
+        能够缩短作物的生长时间<br>不能在地下室使用
+        <li><ruby><b>浇水</b>
+                <rt>水やり</rt>
+            </ruby></li>
+        每天浇水后，作物的成长+1.0<br>10小时后可以再次浇水，作物的成长+0.5
     </ul>
-    <li><b>使用肥料加工机制造</b></li>
+    <h3>品质与肥料</h3>
+    <p>作物的品质被分为四类</p>
     <ul>
-        <li>スーパーひりょう：品质四要素++0.67%～0.77%(效率很差)</li>
-        <li>超ぴかりんひりょう：色泽+6.68%</li>
-        <li>超あまあまひりょう：甜味+6.68%</li>
-        <li>超ジューシーひりょう：水分+6.68%</li>
-        <li>超ぐんぐんひりょう：尺寸+6.68%</li>
-        <li>超ふえーるひりょう：收获量+2，尺寸-3.34%(上限39个)</li>
+        <li><ruby>色泽<rt>色ツヤ</rt></ruby></li>
+        <li><ruby>甜度・香气<rt>甘味・かおり</rt></ruby></li>
+        <li><ruby>水分<rt>水分量</rt></ruby></li>
+        <li><ruby>尺寸<rt>サイズ</rt></ruby></li>
     </ul>
-    <li><b>肥料水加工机</b></li>
-    <ul>
-        <li>浇水的同时获得肥料效果</li>
-        <li>浇肥料水以后不能使用肥料，请先施肥后再浇肥料水。</li>
-        <li>浇水后的闪光是使用肥料的证据</li>
-        <li>不可用于无法浇水的作物(树、蘑菇等)</li>
-    </ul>
-</ul>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">分类</th>
+                <th colspan="4">品质项目</th>
+            </tr>
+            <tr>
+                <td>色ツヤ</td>
+                <td>甘味・かおり</td>
+                <td>水分量</td>
+                <td>サイズ</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>農作物・果樹</th>
+                <td>◯</td>
+                <td>◯</td>
+                <td>◯</td>
+                <td>◯</td>
+            </tr>
+            <tr>
+                <th>花・穀物・茶葉</th>
+                <td>◯</td>
+                <td>◯</td>
+                <td>◯</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <th>水田作物</th>
+                <td>◯</td>
+                <td>◯</td>
+                <td>◯</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <th>繊維作物</th>
+                <td>◯</td>
+                <td>—</td>
+                <td>—</td>
+                <td>—</td>
 
-<h3>恶劣天气(夏季的台风、冬季的暴雪)</h3>
-<p>作物的品质四要素均降低-3.01%-3.34%<br>
-如果所有的品质变为0%，就会枯萎或者变成树桩<br>
-只影响户外的作物，不影响地下室内的作物</p>
-<h3>作物分类</h3>
-<h4>春季作物</h4>
-<table>
-<tr>
-    <th colspan="2">作物名称</th>
-    <th>生长天数</th>
-</tr>
-<tr>
-    <td>芜菁</td>
-    <td>かぶ</td>
-    <td>4～5日</td>
-</tr>
-<tr>
-    <td>水萝卜</td>
-    <td>ラディッシュ</td>
-    <td>4～5日</td>
-</tr>
-<tr>
-    <td>马铃薯</td>
-    <td>じゃがいも</td>
-    <td>6～7日</td>
-</tr>
-<tr>
-    <td>卷心菜</td>
-    <td>きゃべつ</td>
-    <td>12～14日</td>
-</tr>
-<tr>
-    <td>黄瓜</td>
-    <td>きゅうり</td>
-    <td>4日</td>
-</tr>
-<tr>
-    <td>草莓</td>
-    <td>いちご</td>
-    <td>14～17日(3～4日)</td>
-</tr>
-<tr>
-    <td>木春菊</td>
-    <td>マーガレッ</td>
-    <td>6～7日</td>
-</tr>
-<tr>
-    <td>粉红玫瑰</td>
-    <td>ピンクローズ</td>
-    <td>8～10日</td>
-</tr>
-<tr>
-    <td>风铃花</td>
-    <td>カンパニュラ</td>
-    <td>8～10日</td>
-</tr>
-<tr>
-    <td>康乃馨</td>
-    <td>カーネーション</td>
-    <td>12～14日</td>
-</tr>
-</table>
-<h4>夏季作物</h4>
-<table>
-<tr>
-    <th colspan="2">作物名称</th>
-    <th>生长天数</th>
-</tr>
-<tr>
-    <td>洋葱</td>
-    <td>たまねぎ</td>
-    <td>6～7日</td>
-</tr>
-<tr>
-    <td>番茄</td>
-    <td>トマト</td>
-    <td>4日</td>
-</tr>
-<tr>
-    <td>玉米</td>
-    <td>とうもろこし</td>
-    <td>12～15日(3～4日)</td>
-</tr>
-<tr>
-    <td>紫苏</td>
-    <td>しそ</td>
-    <td>8～9日</td>
-</tr>
-<tr>
-    <td>南瓜</td>
-    <td>かぼちゃ</td>
-    <td>4日</td>
-</tr>
-<tr>
-    <td>西瓜</td>
-    <td>すいか</td>
-    <td>7日</td>
-</tr>
-<tr>
-    <td>甜瓜</td>
-    <td>メロン</td>
-    <td>7日</td>
-</tr>
-<tr>
-    <td>辣椒</td>
-    <td>パプリカ</td>
-    <td>11～13日(3日)</td>
-</tr>
-<tr>
-    <td>菠萝</td>
-    <td>パイナップル</td>
-    <td>14～17日(3～4日)</td>
-</tr>
-<tr>
-    <td>木薯</td>
-    <td>キャッサバ</td>
-    <td>11～13日</td>
-</tr>
-<tr>
-    <td>木槿</td>
-    <td>ハイビスカス</td>
-    <td>6～7日</td>
-</tr>
-<tr>
-    <td>红玫瑰</td>
-    <td>レッドローズ</td>
-    <td>8～10日</td>
-</tr>
-<tr>
-    <td>百合</td>
-    <td>ユリ</td>
-    <td>11～13日</td>
-</tr>
-<tr>
-    <td>向日葵</td>
-    <td>ひまわり</td>
-    <td>12～14日</td>
-</tr>
-<tr>
-    <td>鸡蛋花</td>
-    <td>プルメリア</td>
-    <td>12～14日</td>
-</tr>
-<tr>
-    <td>喇叭花</td>
-    <td>あさがお</td>
-    <td>7～8日</td>
-</tr>
-</table>
-<h4>秋季作物</h4>
-<table>
-<tr>
-    <th colspan="2">作物名称</th>
-    <th>生长天数</th>
-</tr>
-<tr>
-    <td>菠菜</td>
-    <td>ほうれんそう</td>
-    <td>4～5日</td>
-</tr>
-<tr>
-    <td>胡萝卜</td>
-    <td>にんじん</td>
-    <td>6～7日</td>
-</tr>
-<tr>
-    <td>牛蒡</td>
-    <td>ごぼう</td>
-    <td>9～11日</td>
-</tr>
-<tr>
-    <td>地瓜</td>
-    <td>さつまいも</td>
-    <td>5日</td>
-</tr>
-<tr>
-    <td>茄子</td>
-    <td>なす</td>
-    <td>11～13日</td>
-</tr>
-<tr>
-    <td>青椒</td>
-    <td>ピーマン</td>
-    <td>11～13日(3日)</td>
-</tr>
-<tr>
-    <td>瞿麦</td>
-    <td>なでしこ</td>
-    <td>6～7日</td>
-</tr>
-<tr>
-    <td>非洲菊</td>
-    <td>ガーベラ</td>
-    <td>8～10日</td>
-</tr>
-<tr>
-    <td>大丽花</td>
-    <td>ダリア</td>
-    <td>8～10日</td>
-</tr>
-<tr>
-    <td>白色玫瑰</td>
-    <td>ホワイトローズ</td>
-    <td>11～13日</td>
-</tr>
-<tr>
-    <td>菊花</td>
-    <td>キク</td>
-    <td>11～13日</td>
-</tr>
-<tr>
-</tr>
-</table>
-<h4>冬季作物</h4>
-<table>
-<tr>
-    <th colspan="2">作物名称</th>
-    <th>生长天数</th>
-</tr>
-<tr>
-    <td>萝卜</td>
-    <td>だいこん</td>
-    <td>4～5日</td>
-</tr>
-<tr>
-    <td>白菜</td>
-    <td>はくさい</td>
-    <td>11～13日</td>
-</tr>
-<tr>
-    <td>西兰花</td>
-    <td>ブロッコリー</td>
-    <td>9～11日</td>
-</tr>
-<tr>
-    <td>龙胆</td>
-    <td>りんどう</td>
-    <td>6～7日</td>
-</tr>
-<tr>
-    <td>雪莲</td>
-    <td>スノードロップ</td>
-    <td>8～10日</td>
-</tr>
-<tr>
-    <td>蓝色妖姬</td>
-	<td>ブルーローズ</td>
-	<td>16～20日</td>
-</tr>
-</table>
-<h4>水田</h4>
-<table>
-<tr>
-    <th colspan="2">作物名称</th>
-    <th>生长天数</th>
-</tr>
-<tr>
-    <td>山葵</td>
-    <td>わさび</td>
-    <td>16日</td>
-</tr>
-<tr>
-    <td>大米</td>
-    <td>お米</td>
-    <td>2个月</td>
-</tr>
-<tr>
-    <td>糯米</td>
-    <td>もち米</td>
-    <td>2个月</td>
-</tr>
-</table>
-<h4>全年</h4>
-<table>
-<tr>
-    <th colspan="2">作物名称</th>
-    <th>生长天数</th>
-</tr>
-<tr>
-    <td>小麦</td>
-    <td>小麦</td>
-    <td>1个月</td>
-</tr>
-<tr>
-    <td>黄豆</td>
-    <td>大豆</td>
-    <td>1个月半</td>
-</tr>
-<tr>
-    <td>红豆</td>
-    <td>小豆</td>
-    <td>1个月半</td>
-</tr>
-<tr>
-    <td>红辣椒</td>
-    <td>とうがらし</td>
-    <td>8～10日</td>
-</tr>
-<tr>
-    <td>甘蔗</td>
-    <td>サトウキビ</td>
-    <td>12～14日</td>
-</tr>
-<tr>
-    <td>茶叶</td>
-    <td>茶葉</td>
-    <td>1个月(4～5日)</td>
-</tr>
-<tr>
-    <td>棉花</td>
-    <td>綿花</td>
-    <td>8～10日</td>
-</tr>
-<tr>
-    <td>亚麻</td>
-    <td>亜麻</td>
-    <td>7～8日</td>
-</tr>
-<tr>
-    <td>牧草</td>
-    <td>牧草</td>
-    <td>—</td>
-</tr>
-</table>
-<h4>果树</h4>
-<table>
-<tr>
-    <th>季节</th>
-    <th colspan="2">作物名称</th>
-    <th>生长天数</th>
-</tr>
-<tr>
-    <td rowspan="3">春</td>
-    <td>樱桃</td>
-    <td>さくらんぼ</td>
-    <td>2个月(3-4天)</td>
-</tr>
-<tr>
-    <td>枫糖浆(枫树)</td>
-    <td>メープルシロップ(カエデ)</td>
-    <td>16～20日(3日)</td>
-</tr>
-<tr>
-    <td>竹笋(竹)</td>
-    <td>たけのこ(竹)</td>
-    <td>16～20日(3～4日)</td>
-</tr>
-<tr>
-    <td rowspan="11">夏</td>
-    <td>杏</td>
-    <td>アーモンド</td>
-    <td>2个月(4-5天)</td>
-</tr>
-<tr>
-    <td>桃子</td>
-    <td>もも</td>
-    <td>1个月半(3-4天)</td>
-</tr>
-<tr>
-    <td>猕猴桃</td>
-    <td>キウイ</td>
-    <td>1个月半(3-4天)</td>
-</tr>
-<tr>
-    <td>柠檬</td>
-    <td>レモン</td>
-    <td>1个月半(3-4天)</td>
-</tr>
-<tr>
-    <td>荔枝</td>
-    <td>ライチ</td>
-    <td>1个月半(3-4天)</td>
-</tr>
-<tr>
-    <td>橙子</td>
-    <td>オレンジ</td>
-    <td>2个月(3-4天)</td>
-</tr>
-<tr>
-    <td>芒果</td>
-    <td>マンゴー</td>
-    <td>2个月(3-4天)</td>
-</tr>
-<tr>
-    <td>杨桃</td>
-    <td>スターフルーツ</td>
-    <td>2个月(3-4天)</td>
-</tr>
-<tr>
-    <td>椰子</td>
-    <td>ココヤシ</td>
-    <td>2个月(3-4天)</td>
-</tr>
-<tr>
-    <td>香蕉</td>
-    <td>バナナ</td>
-    <td>2个月(4-5天)</td>
-</tr>
-<tr>
-    <td>可可</td>
-    <td>カカオ</td>
-    <td>2个月(4-5天)</td>
-</tr>
-<tr>
-    <td rowspan="4">秋</td>
-    <td>苹果</td>
-    <td>りんご</td>
-    <td>1个月半(3-4天)</td>
-</tr>
-<tr>
-    <td>葡萄</td>
-    <td>ぶどう</td>
-    <td>2个月(3-4天)</td>
-</tr>
-<tr>
-    <td>橄榄</td>
-    <td>オリーブ</td>
-    <td>2个月(3-4天)</td>
-</tr>
-<tr>
-    <td>柿子</td>
-    <td>かき</td>
-    <td>2个月(3-4天)</td>
-</tr>
-<tr>
-    <td rowspan="2">其他</td>
-    <td>阔叶树</td>
-    <td>広葉樹</td>
-	<td>—</td>
-</tr>
-<tr>
-    <td>针叶树</td>
-    <td>針葉樹</td>
-	<td>—</td>
-</tr>
-</table>
-<h3>连作作物</h3>
-<p>指种植一次可以多次收获的农作物<br>
-可以收获的时候请不要收获，继续浇水，它还会继续成长<br>
-一直到不能再浇水的时候就可以收获了<br>
-完全成长后，甜味超过10%会产出<b style="color:gold;text-shadow:1px 1px 2px #000">黄金作物</b><br>
-不会产出黄金作物的连作作物：草莓、菠萝、玉米、辣椒、青椒、茄子、西兰花</p>
-<h3>作物祭</h3>
-<p>每个季节的的第30天在ウェスタウン举行<br>
-将每个季节的作物，在10:00-13:00带到交叉口，交给主持人</p>
-<h3>参赛级别</h3>
-<ul>
-    <li><ruby>新手级<rt>ビギナーランク</rt></ruby></li>
-    <li><ruby>熟练级<rt>ベテランランク</rt></ruby></li>
-    <li><ruby>专家级<rt>エキスパートランク</rt></ruby></li>
-    <li><ruby>传说级<rt>レジェンドランク</rt></ruby></li>
-</ul>
-<h3>每个等级的主题</h3>
-<ul>
-    <li><b>新手：</b>特になし､品質の良いもの</li>
-    <li><b>熟练：</b>色つや+[甘み/香り､水分量､サイズから1つ]</li>
-    <li><b>专家：</b>色つや+[甘み/香り､水分量､サイズから2つ]</li>
-    <li><b>传说：</b>色つや､甘み/香り､水分量､サイズ全て</li>
-</ul>
-</div>
-<h3>好感度</h3>
-<p>所有参与者好感度+500，获胜再+1000<br>
-ウェスタウン的结婚候注目度+1，获胜再+2</p>
-<h3><ruby>品牌<rt>ブランド</rt></ruby></h3>
-<p>初期是<ruby><b>无品牌</b><rt>ブランドなし</rt></ruby><br>
-作物祭取得优胜的作物会得到品牌的增加，增加品牌可以卖出更多的钱</p>
+            </tr>
+            <tr>
+                <th>樹</th>
+                <td>—</td>
+                <td>—</td>
+                <td>—</td>
+                <td>—</td>
+
+            </tr>
+            <tr>
+                <th>蘑菇 (キノコ)</th>
+                <td>◯</td>
+                <td>◯</td>
+                <td>—</td>
+                <td>—</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>可以使用肥料提升这四类品质</h3>
+    <p>用百分比表示，但是在内部也许存在真正的数值<br>
+        黄金作物不受肥料影响，只有一个<br>
+        水分只要每天浇水都会增加，不必一直使用肥料</p>
+    <ul>
+        <li><b>商店获得(作物祭获得一次优胜后出现)</b></li>
+        <ul>
+            <li>ぴかりんひりょう：色泽+3.34%</li>
+            <li>あまあまひりょう：甜味+3.34%</li>
+            <li>ジューシーひりょう：水分+3.34%</li>
+            <li>ぐんぐんひりょう：尺寸+3.34%</li>
+            <li>ふえーるひりょう：收获量+1(尺寸稍微减少)</li>
+        </ul>
+        <li><b>使用肥料加工机制造</b></li>
+        <ul>
+            <li>スーパーひりょう：品质四要素++0.67%～0.77%(效率很差)</li>
+            <li>超ぴかりんひりょう：色泽+6.68%</li>
+            <li>超あまあまひりょう：甜味+6.68%</li>
+            <li>超ジューシーひりょう：水分+6.68%</li>
+            <li>超ぐんぐんひりょう：尺寸+6.68%</li>
+            <li>超ふえーるひりょう：收获量+2，尺寸-3.34%(上限39个)</li>
+        </ul>
+        <li><b>肥料水加工机</b></li>
+        <ul>
+            <li>浇水的同时获得肥料效果</li>
+            <li>浇肥料水以后不能使用肥料，请先施肥后再浇肥料水。</li>
+            <li>浇水后的闪光是使用肥料的证据</li>
+            <li>不可用于无法浇水的作物(树、蘑菇等)</li>
+        </ul>
+    </ul>
+    <h3>恶劣天气(夏季的台风、冬季的暴雪)</h3>
+    <p>作物的品质四要素均降低-3.01%-3.34%<br>
+        如果所有的品质变为0%，就会枯萎或者变成树桩<br>
+        只影响户外的作物，不影响地下室内的作物</p>
+    <h2>作物分类</h2>
+    <h4>春季作物</h4>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">作物名称</th>
+                <th>生长天数</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>芜菁</td>
+                <td>かぶ</td>
+                <td>4～5日</td>
+            </tr>
+            <tr>
+                <td>水萝卜</td>
+                <td>ラディッシュ</td>
+                <td>4～5日</td>
+            </tr>
+            <tr>
+                <td>马铃薯</td>
+                <td>じゃがいも</td>
+                <td>6～7日</td>
+            </tr>
+            <tr>
+                <td>卷心菜</td>
+                <td>きゃべつ</td>
+                <td>12～14日</td>
+            </tr>
+            <tr>
+                <td>黄瓜</td>
+                <td>きゅうり</td>
+                <td>4日</td>
+            </tr>
+            <tr>
+                <td>草莓</td>
+                <td>いちご</td>
+                <td>14～17日(3～4日)</td>
+            </tr>
+            <tr>
+                <td>木春菊</td>
+                <td>マーガレッ</td>
+                <td>6～7日</td>
+            </tr>
+            <tr>
+                <td>粉红玫瑰</td>
+                <td>ピンクローズ</td>
+                <td>8～10日</td>
+            </tr>
+            <tr>
+                <td>风铃花</td>
+                <td>カンパニュラ</td>
+                <td>8～10日</td>
+            </tr>
+            <tr>
+                <td>康乃馨</td>
+                <td>カーネーション</td>
+                <td>12～14日</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>夏季作物</h4>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">作物名称</th>
+                <th>生长天数</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>洋葱</td>
+                <td>たまねぎ</td>
+                <td>6～7日</td>
+            </tr>
+            <tr>
+                <td>番茄</td>
+                <td>トマト</td>
+                <td>4日</td>
+            </tr>
+            <tr>
+                <td>玉米</td>
+                <td>とうもろこし</td>
+                <td>12～15日(3～4日)</td>
+            </tr>
+            <tr>
+                <td>紫苏</td>
+                <td>しそ</td>
+                <td>8～9日</td>
+            </tr>
+            <tr>
+                <td>南瓜</td>
+                <td>かぼちゃ</td>
+                <td>4日</td>
+            </tr>
+            <tr>
+                <td>西瓜</td>
+                <td>すいか</td>
+                <td>7日</td>
+            </tr>
+            <tr>
+                <td>甜瓜</td>
+                <td>メロン</td>
+                <td>7日</td>
+            </tr>
+            <tr>
+                <td>辣椒</td>
+                <td>パプリカ</td>
+                <td>11～13日(3日)</td>
+            </tr>
+            <tr>
+                <td>菠萝</td>
+                <td>パイナップル</td>
+                <td>14～17日(3～4日)</td>
+            </tr>
+            <tr>
+                <td>木薯</td>
+                <td>キャッサバ</td>
+                <td>11～13日</td>
+            </tr>
+            <tr>
+                <td>木槿</td>
+                <td>ハイビスカス</td>
+                <td>6～7日</td>
+            </tr>
+            <tr>
+                <td>红玫瑰</td>
+                <td>レッドローズ</td>
+                <td>8～10日</td>
+            </tr>
+            <tr>
+                <td>百合</td>
+                <td>ユリ</td>
+                <td>11～13日</td>
+            </tr>
+            <tr>
+                <td>向日葵</td>
+                <td>ひまわり</td>
+                <td>12～14日</td>
+            </tr>
+            <tr>
+                <td>鸡蛋花</td>
+                <td>プルメリア</td>
+                <td>12～14日</td>
+            </tr>
+            <tr>
+                <td>喇叭花</td>
+                <td>あさがお</td>
+                <td>7～8日</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>秋季作物</h4>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">作物名称</th>
+                <th>生长天数</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>菠菜</td>
+                <td>ほうれんそう</td>
+                <td>4～5日</td>
+            </tr>
+            <tr>
+                <td>胡萝卜</td>
+                <td>にんじん</td>
+                <td>6～7日</td>
+            </tr>
+            <tr>
+                <td>牛蒡</td>
+                <td>ごぼう</td>
+                <td>9～11日</td>
+            </tr>
+            <tr>
+                <td>地瓜</td>
+                <td>さつまいも</td>
+                <td>5日</td>
+            </tr>
+            <tr>
+                <td>茄子</td>
+                <td>なす</td>
+                <td>11～13日</td>
+            </tr>
+            <tr>
+                <td>青椒</td>
+                <td>ピーマン</td>
+                <td>11～13日(3日)</td>
+            </tr>
+            <tr>
+                <td>瞿麦</td>
+                <td>なでしこ</td>
+                <td>6～7日</td>
+            </tr>
+            <tr>
+                <td>非洲菊</td>
+                <td>ガーベラ</td>
+                <td>8～10日</td>
+            </tr>
+            <tr>
+                <td>大丽花</td>
+                <td>ダリア</td>
+                <td>8～10日</td>
+            </tr>
+            <tr>
+                <td>白色玫瑰</td>
+                <td>ホワイトローズ</td>
+                <td>11～13日</td>
+            </tr>
+            <tr>
+                <td>菊花</td>
+                <td>キク</td>
+                <td>11～13日</td>
+            </tr>
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+    <h4>冬季作物</h4>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">作物名称</th>
+                <th>生长天数</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>萝卜</td>
+                <td>だいこん</td>
+                <td>4～5日</td>
+            </tr>
+            <tr>
+                <td>白菜</td>
+                <td>はくさい</td>
+                <td>11～13日</td>
+            </tr>
+            <tr>
+                <td>西兰花</td>
+                <td>ブロッコリー</td>
+                <td>9～11日</td>
+            </tr>
+            <tr>
+                <td>龙胆</td>
+                <td>りんどう</td>
+                <td>6～7日</td>
+            </tr>
+            <tr>
+                <td>雪莲</td>
+                <td>スノードロップ</td>
+                <td>8～10日</td>
+            </tr>
+            <tr>
+                <td>蓝色妖姬</td>
+                <td>ブルーローズ</td>
+                <td>16～20日</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>水田</h4>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">作物名称</th>
+                <th>生长天数</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>山葵</td>
+                <td>わさび</td>
+                <td>16日</td>
+            </tr>
+            <tr>
+                <td>大米</td>
+                <td>お米</td>
+                <td>2个月</td>
+            </tr>
+            <tr>
+                <td>糯米</td>
+                <td>もち米</td>
+                <td>2个月</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>全年</h4>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">作物名称</th>
+                <th>生长天数</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>小麦</td>
+                <td>小麦</td>
+                <td>1个月</td>
+            </tr>
+            <tr>
+                <td>黄豆</td>
+                <td>大豆</td>
+                <td>1个月半</td>
+            </tr>
+            <tr>
+                <td>红豆</td>
+                <td>小豆</td>
+                <td>1个月半</td>
+            </tr>
+            <tr>
+                <td>红辣椒</td>
+                <td>とうがらし</td>
+                <td>8～10日</td>
+            </tr>
+            <tr>
+                <td>甘蔗</td>
+                <td>サトウキビ</td>
+                <td>12～14日</td>
+            </tr>
+            <tr>
+                <td>茶叶</td>
+                <td>茶葉</td>
+                <td>1个月(4～5日)</td>
+            </tr>
+            <tr>
+                <td>棉花</td>
+                <td>綿花</td>
+                <td>8～10日</td>
+            </tr>
+            <tr>
+                <td>亚麻</td>
+                <td>亜麻</td>
+                <td>7～8日</td>
+            </tr>
+            <tr>
+                <td>牧草</td>
+                <td>牧草</td>
+                <td>—</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>果树</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>季节</th>
+                <th colspan="2">作物名称</th>
+                <th>生长天数</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">春</td>
+                <td>樱桃</td>
+                <td>さくらんぼ</td>
+                <td>2个月(3-4天)</td>
+            </tr>
+            <tr>
+                <td>枫糖浆(枫树)</td>
+                <td>メープルシロップ(カエデ)</td>
+                <td>16～20日(3日)</td>
+            </tr>
+            <tr>
+                <td>竹笋(竹)</td>
+                <td>たけのこ(竹)</td>
+                <td>16～20日(3～4日)</td>
+            </tr>
+            <tr>
+                <td rowspan="11">夏</td>
+                <td>杏</td>
+                <td>アーモンド</td>
+                <td>2个月(4-5天)</td>
+            </tr>
+            <tr>
+                <td>桃子</td>
+                <td>もも</td>
+                <td>1个月半(3-4天)</td>
+            </tr>
+            <tr>
+                <td>猕猴桃</td>
+                <td>キウイ</td>
+                <td>1个月半(3-4天)</td>
+            </tr>
+            <tr>
+                <td>柠檬</td>
+                <td>レモン</td>
+                <td>1个月半(3-4天)</td>
+            </tr>
+            <tr>
+                <td>荔枝</td>
+                <td>ライチ</td>
+                <td>1个月半(3-4天)</td>
+            </tr>
+            <tr>
+                <td>橙子</td>
+                <td>オレンジ</td>
+                <td>2个月(3-4天)</td>
+            </tr>
+            <tr>
+                <td>芒果</td>
+                <td>マンゴー</td>
+                <td>2个月(3-4天)</td>
+            </tr>
+            <tr>
+                <td>杨桃</td>
+                <td>スターフルーツ</td>
+                <td>2个月(3-4天)</td>
+            </tr>
+            <tr>
+                <td>椰子</td>
+                <td>ココヤシ</td>
+                <td>2个月(3-4天)</td>
+            </tr>
+            <tr>
+                <td>香蕉</td>
+                <td>バナナ</td>
+                <td>2个月(4-5天)</td>
+            </tr>
+            <tr>
+                <td>可可</td>
+                <td>カカオ</td>
+                <td>2个月(4-5天)</td>
+            </tr>
+            <tr>
+                <td rowspan="4">秋</td>
+                <td>苹果</td>
+                <td>りんご</td>
+                <td>1个月半(3-4天)</td>
+            </tr>
+            <tr>
+                <td>葡萄</td>
+                <td>ぶどう</td>
+                <td>2个月(3-4天)</td>
+            </tr>
+            <tr>
+                <td>橄榄</td>
+                <td>オリーブ</td>
+                <td>2个月(3-4天)</td>
+            </tr>
+            <tr>
+                <td>柿子</td>
+                <td>かき</td>
+                <td>2个月(3-4天)</td>
+            </tr>
+            <tr>
+                <td rowspan="2">其他</td>
+                <td>阔叶树</td>
+                <td>広葉樹</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>针叶树</td>
+                <td>針葉樹</td>
+                <td>—</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>连作作物</h3>
+    <p>指种植一次可以多次收获的农作物<br>
+        可以收获的时候请不要收获，继续浇水，它还会继续成长<br>
+        一直到不能再浇水的时候就可以收获了<br>
+        完全成长后，甜味超过10%会产出<b
+            style="color: gold; background-color: #555; margin-left: 0.5em; padding: 5px 10px 5px 10px;">黄金作物</b><br>
+        不会产出黄金作物的连作作物：草莓、菠萝、玉米、辣椒、青椒、茄子、西兰花</p>
+    <h2>作物祭</h2>
+    <p>每个季节的的第30天在ウェスタウン举行<br>
+        将每个季节的作物，在10:00-13:00带到交叉口，交给主持人</p>
+    <h3>参赛级别</h3>
+    <ul>
+        <li><ruby>新手级<rt>ビギナーランク</rt></ruby></li>
+        <li><ruby>熟练级<rt>ベテランランク</rt></ruby></li>
+        <li><ruby>专家级<rt>エキスパートランク</rt></ruby></li>
+        <li><ruby>传说级<rt>レジェンドランク</rt></ruby></li>
+    </ul>
+    <h3>每个等级的主题</h3>
+    <ul>
+        <li><b>新手：</b>特になし､品質の良いもの</li>
+        <li><b>熟练：</b>色つや+[甘み/香り､水分量､サイズから1つ]</li>
+        <li><b>专家：</b>色つや+[甘み/香り､水分量､サイズから2つ]</li>
+        <li><b>传说：</b>色つや､甘み/香り､水分量､サイズ全て</li>
+    </ul>
+    </div>
+    <h3>好感度</h3>
+    <p>所有参与者好感度+500，获胜再+1000<br>
+        ウェスタウン的结婚候注目度+1，获胜再+2</p>
+    <h3><ruby>品牌<rt>ブランド</rt></ruby></h3>
+    <p>初期是<ruby><b>无品牌</b>
+            <rt>ブランドなし</rt>
+        </ruby><br>
+        作物祭取得优胜的作物会得到品牌的增加，增加品牌可以卖出更多的钱</p>
 </body>
+
 </html>
